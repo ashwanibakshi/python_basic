@@ -27,3 +27,13 @@ elif a>b:
 
 else:
     print("a is equal to b")
+
+#OR
+print("Using OR in IF")
+a = int(input("enter value of a "))
+b = int(input("enter value of b "))
+
+if a>b or a<b:
+    print("a is not equal b")
+else:
+    print("a is equal b")
