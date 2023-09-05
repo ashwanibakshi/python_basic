@@ -51,4 +51,44 @@ elif totalmarks>=60 and totalmarks<70:
 elif totalmarks>=50 and totalmarks<60:
     print("Grade E")
 else:
-    print("Grade F")     
+    print("Grade F")   
+
+#Find EVEN/ODD 
+print("EVEN/ODD")
+def main():
+
+    num = int(input("enter a number :"))
+    if is_even(num):
+        print("EVEN Number") 
+    else:
+        print("ODD Number") 
+
+def is_even(x):
+    # if x%2==0:
+    #     return True
+    # else:
+    #     return False
+
+    # return True if x%2==0 else False
+
+    return x%2==0
+
+main()
+
+#Match(its similar to switch)
+print("Match")
+
+name = input("Enter Place :")
+
+#if you get syntax error then check the python version because
+#match was only introduced in Python version 3.10. 
+name = name.capitalize();
+match name:
+    case "Delhi"|"Mumbai"|"Jaipur"|"Chennai":
+        print("India")
+    case "London":
+        print("England")
+
+     #this is default
+    case _:
+        print("Place Not Found")
