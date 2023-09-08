@@ -1,4 +1,4 @@
-#while loop
+# #while loop
 
 i = int(input("enter value of i :"))
 
@@ -65,4 +65,10 @@ size = int(input("enter width: "))
 for i in range(size):
     for j in range(size):
         print("#",end="")
+    print()
+
+#Printing star pattern
+for i in range(3):
+    for j in range(i+1):
+        print("*",end="");
     print()
