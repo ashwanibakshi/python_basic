@@ -67,7 +67,7 @@ for i in range(size):
         print("#",end="")
     print()
 
-#Printing star pattern
+#Printing  pattern
 for i in range(3):
     for j in range(i+1):
         print("*",end="");
