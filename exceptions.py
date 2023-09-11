@@ -61,8 +61,27 @@ print("i is ",i)
 #      while True:    
 #           try:
 #                return int(input("enter i value? "))
+#                # i =  int(input("enter i value? "))
 #                # return i
 #           except ValueError:
 #                print("i value be integer")
+
+# main()
+
+
+# def main():
+#     x= getInt('enter i value? ')
+#     print('x is ',x)
+
+# def getInt(value):
+
+#      while True:    
+#           try:
+#                return int(input(value))
+#                # i =  int(input("enter i value? "))
+#                # return i
+#           except ValueError:
+#                # print("i value be integer")
+#                pass
 
 # main()
