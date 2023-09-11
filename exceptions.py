@@ -22,3 +22,12 @@ except ValueError:
      print("y value should be integer only")
 
 print("y is ",y)
+
+#We can use try except else block for solving this problem
+#Now if we enter wrong value for z then except block will handle it.
+try:
+     z = int(input("Enter Value Of z ? "))
+except ValueError:
+     print("z value should be integer only")
+else:
+     print("z is ",z)
